@@ -4,8 +4,8 @@ provider "azurerm" {
 }
 
 # Create a resource group
-resource "Jupyter_Testing" "example" {
-  name     = "example-resource-group"
+resource "azurerm_resource_group" "example" {
+  name     = "eJupyter_Testing"
   location = "West Europe"
 }
 
@@ -21,4 +21,5 @@ resource "azurerm_storage_account" "example" {
     Environment = "Dev"
   }
 }
-#bhanu
+
+

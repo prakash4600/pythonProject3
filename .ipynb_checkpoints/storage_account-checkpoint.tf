@@ -21,3 +21,4 @@ resource "azurerm_storage_account" "example" {
     Environment = "Dev"
   }
 }
+#bhanu
